@@ -2,10 +2,12 @@ import time
 import pandas as pd
 import numpy as np
 
+# dictionary for city_data
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+# Global lists containing filter values for months, days
 MONTHS_FILTER = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
 DAY_FILTER = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 months = ['january', 'february', 'march', 'april', 'may', 'june']
